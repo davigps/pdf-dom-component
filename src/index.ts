@@ -1,3 +1,3 @@
-import { TestComponent } from './TestComponent';
+import { RenderPdf } from './RenderPdf';
 
-export { TestComponent }; 
+export { RenderPdf }; 

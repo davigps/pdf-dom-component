@@ -1,10 +1,10 @@
-import { TestComponent } from 'pdf-dom-component';
+import { RenderPdf } from 'pdf-dom-component';
 import { View, StyleSheet } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <TestComponent />
+      <RenderPdf pdfUrl="https://pdfobject.com/pdf/sample.pdf" />
     </View>
   );
 }
