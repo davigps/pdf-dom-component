@@ -1,3 +1,5 @@
-import { RenderPdf } from './RenderPdf';
+import RenderPdf, { RenderPdfProps } from './RenderPdf';
 
-export { RenderPdf }; 
+export { RenderPdf };
+
+export type { RenderPdfProps };
